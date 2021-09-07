@@ -58,7 +58,7 @@ class Engine:
         weights=None,
         rebalance=None,
         benchmark=None,
-        end_date=TODAY,
+        end_date,
         optimizer=None,
         max_vol=0.15,
         diversification=1,
